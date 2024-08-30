@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="movies.css">
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
     <header>
@@ -22,5 +25,55 @@
         </ul>
         <a href="#" class="btn">Sign In</a>
     </header>
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!--box1-->
+            <div class="swiper-slide container">
+                <img src="img/home1.jpg" alt="home1">
+            
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h2>Venom: Let There <br> Be Carnage</h2>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!--box2-->
+            <div class="swiper-slide container">
+                <img src="img/home2.jpg" alt="home1">
+            
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h2>Avengers: <br>Infinity War</h2>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!--box3-->
+            <div class="swiper-slide container">
+                <img src="img/home3.jpg" alt="home1">
+            
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h2>Spider-Man: <br>Far from Home</h2>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play' ></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="movies.js"></script>
 </body>
 </html>

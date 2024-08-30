@@ -18,6 +18,9 @@ body{
     background-color: var(--text-color);
     color: var(--bg-color);
 }
+section{
+    padding: 4.5rem 0 1.5rem;
+}
 header{
     position: fixed;
     width: 100%;
@@ -83,4 +86,69 @@ header{
 }
 .btn:hover{
     background: #fa1216;
+}
+.container{
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgb(2,3,7,0.4);
+}
+.container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1 ;
+}
+.swiper-pagination-bullet{
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 0.2rem !important;
+    background: var(--bg-color) !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active{
+    width: 1.5rem !important;
+    background: var(--main-color) !important;
+}
+.home-text{
+    padding: 0 150px;
+    position: relative;
+    top: 300px;
+}
+.home-text span{
+    color: var(--bg-color);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.home-text h1{
+    color: var(--bg-color);
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.home-text .btn{
+    position: relative;
+    top: 10px;
+}
+.play{
+    position: absolute;
+    right: 4rem;
+    bottom: 10%;
+}
+.play .bx{
+    background: var(--bg-color);
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 4px solid rgb(2,3,7,0.4);
+    color: var(--main-color);
+}
+.play .bx:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+    transition: 0.2s all linear;
 }
