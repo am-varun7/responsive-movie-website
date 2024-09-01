@@ -192,3 +192,14 @@ header{
 .box span{
     font-size: 13px;
 }
+.coming-container{
+    display: grid;
+    gap: 1rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.coming-container .box{
+    width: 100px;
+}
